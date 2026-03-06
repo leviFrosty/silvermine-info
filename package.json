@@ -1,25 +1,25 @@
 {
-  "name": "silvermine-info",
-  "version": "1.0.0",
-  "description": "Organizational information and coding standards",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "check-node-version": "check-node-version --npm 10.5.0",
-    "commitlint": "commitlint --from 04206a0",
-    "markdownlint": "markdownlint **/*.md --ignore node_modules",
-    "standards": "npm run markdownlint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/silvermine/silvermine-info.git"
-  },
-  "author": "Jeremy Thomerson",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/silvermine/silvermine-info/issues"
-  },
-  "homepage": "https://github.com/silvermine/silvermine-info#readme",
-  "devDependencies": {
-    "@silvermine/standardization": "2.0.0"
-  }
+   "name": "silvermine-info",
+   "version": "1.0.0",
+   "description": "Organizational information and coding standards",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "check-node-version": "check-node-version --node 24.13.1 --npm 11.8.0 --print",
+      "commitlint": "commitlint --from 04206a0",
+      "markdownlint": "markdownlint **/*.md --ignore node_modules",
+      "standards": "npm run markdownlint"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/silvermine/silvermine-info.git"
+   },
+   "author": "Jeremy Thomerson",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/silvermine/silvermine-info/issues"
+   },
+   "homepage": "https://github.com/silvermine/silvermine-info#readme",
+   "devDependencies": {
+      "@silvermine/standardization": "2.0.0"
+   }
 }
